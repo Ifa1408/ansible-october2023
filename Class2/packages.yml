@@ -1,0 +1,13 @@
+- hosts: all
+  taska:
+  - name: Install packeges
+    yum:
+      name: "{{ packeges }}"
+      state: present
+   vars:
+     packeges:
+     - wget
+     - git
+     - httpd
+     - tree
+     - unzip
