@@ -1,0 +1,9 @@
+- name: install the latest version of Apache
+  yum:
+    name: "{{ package }}"
+    state: latest
+
+- name: Restart service httpd
+  service:
+    name: "{{ package }}"
+    state: started
