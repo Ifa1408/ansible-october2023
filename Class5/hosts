@@ -1,0 +1,7 @@
+master ansible_host=138.197.47.191
+
+worker ansible_host=104.236.69.168  # ssh root@ip
+
+worker2 ansible_host=3.141.167.231 ansible_user=ec2-user
+
+worker3 ansible_host=18.217.100.106 ansible_user=ec2-user
